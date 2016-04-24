@@ -1,0 +1,24 @@
+{
+  "name": "steam-hijack",
+  "version": "1.0.0",
+  "description": "Hijack and rewrite Steam's CDN server lists",
+  "main": "index.js",
+  "dependencies": {
+    "http-proxy": "^1.13.2",
+    "node-vdf": "RJacksonm1/node-vdf.git#master"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirsquidness/steam-hijack.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sirsquidness/steam-hijack/issues"
+  },
+  "homepage": "https://github.com/sirsquidness/steam-hijack#readme"
+}

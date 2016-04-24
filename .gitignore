@@ -1,3 +1,5 @@
+*.sw[op]
+
 # Logs
 logs
 *.log
