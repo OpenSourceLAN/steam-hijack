@@ -12,6 +12,9 @@
 
 # Used with Squid3
 
+$serverlist_ip_address = "10.0.0.194";
+$serverlist_port = "8000";
+
 $|=1;
 $count = 0;
 $pid = $$;
@@ -24,7 +27,7 @@ while (<>) {
         $srcIp = $blah[0];
 
 # This should be the IP address of your cache(s), so that they bypass the redirection
-        if ( $srcIp eq "10.0.0.194" )
+        if ( $srcIp eq $cache_ip_address )
         {
             print "$_\n";
         }
@@ -38,7 +41,7 @@ while (<>) {
 #continue;
 
 # Update this URL to point to where you are running the steam hijack node app
-               print "http://10.0.0.194/serverlist/$1/$2\n";
+               print "http://$cache_ip_address:$serverlist_port/serverlist/$1/$2\n";
           }
           else
           {

@@ -1,0 +1,14 @@
+{
+	"_comment_UpstreamServers": "Get IP addresses from the 'CS' array in your Steam client's config.vdf file",
+	"UpstreamServers": [
+		"103.10.125.136:80",
+		"162.254.193.23:80",
+		"162.254.193.22:80"
+	],
+	"_comment_LocalCacheServers": "List the hostnames/IPs for your cache servers here",
+	"LocalCacheServers": [
+		"10.0.0.1",
+		"steamcache.lan:80"
+	]
+
+}
