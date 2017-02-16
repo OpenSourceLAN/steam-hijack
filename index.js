@@ -2,7 +2,7 @@
 
 var http = require('http'),
     url = require('url'),
-    vdf = require('node-vdf'),
+    vdf = require('vdf'), // this package is instaleld with `npm install node-vdf', but gets installed in node-modules as 'vdf'. Go figure.
     config = require('./config.json');
 
 if (!config) throw "config.json not found or empty";
